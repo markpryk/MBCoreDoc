@@ -83,7 +83,7 @@ Control *where* a flora kind can spawn by matching against the scene's region ty
 | `fkf_on_green_ground` | `0x00100000` | Only spawns where `tlt_green` intensity > ~0.2 |
 | `fkf_rock` | `0x00200000` | Routes to rock set |
 | `fkf_tree` | `0x00400000` | Routes to tree set (requires LOD + body meshes) |
-| `fkf_snowy` | `0x00800000` | Uses snowy variant material |
+| `fkf_snowy` | `0x00800000` | Uses snowy variant material? (Never used in engine as K700 says) |
 | `fkf_guarantee` | `0x01000000` | Always gets at least one colony pass |
 | `fkf_has_colony_props` | `0x04000000` | Overrides colony_radius and colony_threshold |
 | `fkf_realtime_ligting` | `0x00010000` | Deprecated — no effect |
